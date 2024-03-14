@@ -1,0 +1,11 @@
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #000000;
+  font-family: sans-serif;
+}
+
+.subsection {
+  padding: 10px;
+  border: solid 1px #ffffff;
+}
