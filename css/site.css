@@ -1,11 +1,164 @@
-#content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #000000;
-  font-family: sans-serif;
+:root {
+  background-color: #101010;
+  border: dotted 5px #8080ff;
+  margin: 20px 20px;
 }
 
-.subsection {
-  padding: 10px;
-  border: solid 1px #ffffff;
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  margin: 0px auto;
+  margin-bottom: 100px;
+
+  text-align: center;
+  vertical-align: top;
+  font-size: 100px;
+  color: #ffffcc;
+  font-family: monospace;
+  text-decoration: underline;
+
+  border: dotted 5px #ffff80;
+  background-color: #202020;
 }
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  padding: 50px;
+
+  text-align: center;
+  vertical-align: top;
+  font-size: 50px;
+  color: #eeeeee;
+  font-family: monospace;
+  text-decoration: none;
+
+  border: dotted 5px #ff8080;
+  background-color: #202020;
+}
+
+.content {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  /*justify-content: center;
+  align-items: center;*/
+  width: 75%;
+  height: auto;
+  margin: 0px auto;
+  margin-bottom: 100px;
+  padding: 25px;
+    
+  text-align: justify;
+  font-size: 25px;
+  color: #eeeeee;
+  font-family: monospace;
+
+  border: dotted 5px #80ff80;
+  background-color: #202020;
+}
+
+.contentCentered {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  /*justify-content: center;
+  align-items: center;*/
+  width: 50%;
+  height: auto;
+  margin: 0px auto;
+  margin-bottom: 100px;
+  padding: 25px;
+    
+  text-align: center;
+  font-size: 25px;
+  color: #eeeeee;
+  font-family: monospace;
+
+  border: dotted 5px #80ff80;
+  background-color: #202020;
+}
+
+.contributor {    
+  font-size: 40px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.contributorDescription {    
+  font-size: 20px;
+}
+
+.listCentered {    
+  display: block;
+  justify-content: center;
+  align-items: center;
+  /*justify-content: center;
+  align-items: center;*/
+  width: 60%;
+  height: auto;
+  margin: 0px auto;
+  margin-bottom: 100px;
+  padding: 25px;
+    
+  text-align: center;
+  font-size: 25px;
+  color: #eeeeee;
+  font-family: monospace;
+
+  border: dotted 5px #80ff80;
+  background-color: #202020;
+}
+
+.specialText {
+  color: #ff8080;
+  font-style: italic;
+}
+
+a {
+  text-decoration: underline;
+  color: #80ffff;
+}
+
+/*
+#title {
+  text-align: center;
+  font-size: 50px;
+  color: #cccccc;
+  font-family: monospace;
+  text-decoration: underline;
+}
+
+#titleSection {
+  text-align: center;
+  font-size: 25px;
+  color: #cccccc;
+  font-family: monospace;
+  text-decoration: underline;
+}
+
+#sectionContent {
+  margin: 10px;
+  padding: 10px;
+  border: solid 0px #000000;
+  font-family: serif;
+  color: #cccccc;
+  text-align: center;
+  text-decoration: none;
+}
+*/
+
+/*
+.subsection {
+  padding: 0px;
+  border: solid 0px #ffffff;
+}
+*/
