@@ -1,7 +1,10 @@
 :root {
   background-color: #101010;
-  border: dotted 5px #8080ff;
-  margin: 20px 20px;
+  
+  margin: 10px 10px;
+
+  border: dashed 2px #8080ff;
+  border-radius: 5px;
 }
 
 .title {
@@ -97,6 +100,11 @@
   font-size: 20px;
 }
 
+.contentLeft {
+  text-align: left;
+  font-size: 20px;
+}
+
 .listCentered {    
   display: block;
   justify-content: center;
@@ -125,40 +133,7 @@
 
 a {
   text-decoration: underline;
-  color: #80ffff;
+  color: #80aaff;
+  background-color: #303030;
+  border: dashed 1px #cccccc;
 }
-
-/*
-#title {
-  text-align: center;
-  font-size: 50px;
-  color: #cccccc;
-  font-family: monospace;
-  text-decoration: underline;
-}
-
-#titleSection {
-  text-align: center;
-  font-size: 25px;
-  color: #cccccc;
-  font-family: monospace;
-  text-decoration: underline;
-}
-
-#sectionContent {
-  margin: 10px;
-  padding: 10px;
-  border: solid 0px #000000;
-  font-family: serif;
-  color: #cccccc;
-  text-align: center;
-  text-decoration: none;
-}
-*/
-
-/*
-.subsection {
-  padding: 0px;
-  border: solid 0px #ffffff;
-}
-*/
